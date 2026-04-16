@@ -1519,8 +1519,32 @@
           </ul>
         </div>
       </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session VI</span>
+          <span class="session-title">The Trial of the Seeker — Dungeons Chosen</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>Osiris sits down with both of his parents — Muirenn and Elcan Varano — and the truth about Rex comes out in full. Elcan confirms what the resemblance has been quietly suggesting: Rex is his son, born to a woman named Julianath at the very start of his military career. He had maintained contact with Julianath for a time afterward, even attempted to bring her to Logeion — but when she refused, and Rex was born, Elcan cut off all contact entirely and never looked back. Rex grew up without a father. Elcan has carried the silence ever since. The revelation lands heavily. Muirenn, composed as always, announces that Elcan will be redeployed — sent far from Fairwind and the Games to keep close watch on the cult's movements, well away from Rex for the time being. There is a quieter announcement beneath that one, delivered without ceremony: Muirenn and Elcan intend to divorce. The conversation ends without resolution. There is none to be had.</li>
+            <li>Rex meets privately with Nimbus. The conversation is not what Nimbus expected. Rex speaks plainly of two things. First: he knows that Osiris had been planning — or at minimum considering — a betrayal of the group following the second phase of the Games, and he wanted Nimbus to know before it could be used against him. Second, and perhaps more lasting: Rex shares his philosophy without decoration. <em>Strength is truth. Mercy is weakness.</em> He does not argue it or defend it — he states it the way he states everything, as a settled fact. What Nimbus does with either piece of information is his own business. Rex doesn't stay for the reply.</li>
+            <li>Artorius is being watched. An unknown party has taken an interest in him — whether because of his mother's cult involvement, his monastery's presence at the Games, or something else entirely is not yet clear. He may or may not know.</li>
+            <li>Downtime across Fairwind. The party rests, processes, prepares. The city still hums with Games activity around them.</li>
+            <li>The elimination ceremony is held. Competitors who failed to secure sufficient beast heads or meet Phase One's requirements are formally removed from the Games. The field narrows.</li>
+            <li>The Divine Sovereigns — Argentum and Gladiolus Scientia — take the stage together and announce the Trial of the Seeker: the second phase of the Solstice Games. Each remaining competitor must choose two of three dungeons and venture deep inside each to reclaim a hidden artifact. The three dungeons are:
+              <ul style="margin-top:6px;margin-bottom:2px">
+                <li><strong style="font-weight:500">The Tellurian Sanctum</strong> — an ancient earth dungeon of stone, pressure, and buried memory.</li>
+                <li><strong style="font-weight:500">The Abyssal Vault</strong> — a drowned sea dungeon of current, depth, and tidal mechanism.</li>
+                <li><strong style="font-weight:500">The Boltreaver Altar</strong> — a sky dungeon of logic, lightning, and unmoored air.</li>
+              </ul>
+            </li>
+            <li>Competitors who successfully recover their two artifacts must then transport them to Takarakuni, where the third phase of the Games will begin. The Trial of the Seeker has no set time limit — but the field will not wait.</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="page" id="page-timeline">
       <div class="page-hero">
         <div class="page-category">History</div>
         <div class="page-title">Timeline</div>
@@ -1531,7 +1555,17 @@
       </div>
     </div>
 
-  </main>
+    <!-- TIMELINE -->
+    <div class="page" id="page-timeline">
+      <div class="page-hero">
+        <div class="page-category">History</div>
+        <div class="page-title">Timeline</div>
+        <div class="page-tagline">Entries pending.</div>
+      </div>
+      <div class="entry">
+        <p style="color: var(--text-dim); font-style: italic;">Timeline entries will be added here as history is established.</p>
+      </div>
+    </div>
 </div>
 
 <script>
