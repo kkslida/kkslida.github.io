@@ -1529,8 +1529,8 @@
         </div>
         <div class="session-body">
           <ul>
-            <li>Osiris sits down with both of his parents — Muirenn and Elcan Varano — and the truth about Rex comes out in full. Elcan confirms what the resemblance has been quietly suggesting: Rex is his son, born to a woman named Julianath at the very start of his military career. He had maintained contact with Julianith for a time afterward, even attempted to bring her to Logeion — but when she refused, and Rex was born, Elcan cut off all contact entirely and never looked back. Rex grew up without a father. Elcan has carried the silence ever since. The revelation lands heavily. Muirenn, visibly distressed, announces that Elcan will be redeployed — sent far from Fairwind and the Games to keep close watch on the cult's movements, well away from Rex for the time being. There is a quieter announcement beneath that one, delivered without ceremony: Muirenn and Elcan intend to divorce. The conversation ends with Elcan saying his goodbyes, and expressing that he still wishes to come out the other side of this a happier family. Osiris believes in that future, but Muirenn said nothing.</li>
-            <li>Rex meets privately with Nimbus. The conversation is not what Nimbus expected. Rex speaks plainly of two things. First: he knows that Osiris had been planning — or at minimum considering — a betrayal of the group following the second phase of the Games, and he wanted Nimbus to know before it could be used against him. Second, and perhaps more lasting: Rex shares his philosophy without decoration. <em>Strength is truth. Mercy is weakness.</em> He does not argue it or is forced to defend it — he states it the way he states everything, as a settled fact. What Nimbus does with either piece of information is his own business.</li>
+            <li>Osiris sits down with both of his parents — Muirenn and Elcan Varano — and the truth about Rex comes out in full. Elcan confirms what the resemblance has been quietly suggesting: Rex is his son, born to a woman named Julianath at the very start of his military career. He had maintained contact with Julianath for a time afterward, even attempted to bring her to Logeion — but when she refused, and Rex was born, Elcan cut off all contact entirely and never looked back. Rex grew up without a father. Elcan has carried the silence ever since. The revelation lands heavily. Muirenn, composed as always, announces that Elcan will be redeployed — sent far from Fairwind and the Games to keep close watch on the cult's movements, well away from Rex for the time being. There is a quieter announcement beneath that one, delivered without ceremony: Muirenn and Elcan intend to divorce. The conversation ends without resolution. There is none to be had.</li>
+            <li>Rex meets privately with Nimbus. The conversation is not what Nimbus expected. Rex speaks plainly of two things. First: he knows that Osiris had been planning — or at minimum considering — a betrayal of the group following the second phase of the Games, and he wanted Nimbus to know before it could be used against him. Second, and perhaps more lasting: Rex shares his philosophy without decoration. <em>Strength is truth. Mercy is weakness.</em> He does not argue it or defend it — he states it the way he states everything, as a settled fact. What Nimbus does with either piece of information is his own business. Rex doesn't stay for the reply.</li>
             <li>Artorius is being watched. An unknown party has taken an interest in him — whether because of his mother's cult involvement, his monastery's presence at the Games, or something else entirely is not yet clear. He may or may not know.</li>
             <li>Downtime across Fairwind. The party rests, processes, prepares. The city still hums with Games activity around them.</li>
             <li>The elimination ceremony is held. Competitors who failed to secure sufficient beast heads or meet Phase One's requirements are formally removed from the Games. The field narrows.</li>
@@ -1546,18 +1546,182 @@
         </div>
       </div>
     </div>
-      <div class="page-hero">
-        <div class="page-category">History</div>
-        <div class="page-title">Timeline</div>
-        <div class="page-tagline">Entries pending.</div>
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Sessions VII–X</span>
+          <span class="session-title">The Abyssal Vault — Descent into the Deep</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>The party chose the Abyssal Vault as their first dungeon, venturing deep into its flooded depths to recover the artifact hidden within.</li>
+            <li>Across multiple sessions, they navigated the Vault's tidal mechanisms, pressure labyrinths, and current-reading challenges — solving each puzzle as the dungeon descended deeper and the water grew colder and darker.</li>
+            <li>Sahuagin war parties harried them throughout — ambushing the party in flooded corridors, coordinating in packs, and attempting to drive them back toward the surface. The party pushed through.</li>
+            <li>Deeper still, they encountered Nabassu demons — creatures that had apparently made their home in the Vault's lowest chambers, drawn to whatever power the artifact was generating. These encounters were brutal and costly.</li>
+            <li>At the Vault's deepest point, the final guardian revealed itself: a colossal, ancient Aboleth, one of the oldest creatures the party has ever faced. The fight was desperate and narrow — but the party prevailed, claiming the artifact from its resting place.</li>
+            <li>Exhausted and bloodied, the party surfaces from the Abyssal Vault. Their next target has already been decided: the Tellurian Sanctum awaits.</li>
+          </ul>
+        </div>
       </div>
-      <div class="entry">
-        <p style="color: var(--text-dim); font-style: italic;">Timeline entries will be added here as history is established.</p>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XI</span>
+          <span class="session-title">Rella's Truth — Ragnar's Offer — Ingrid's Crime</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li><strong style="font-weight:500">Rella Aeroga arrives.</strong> Artorius's mother appears with her Chromeguard at her side. She greets him warmly, complimenting his performance in the Games and the powerful allies he has gathered. She pulls him aside into a private room and speaks plainly: she knows he saw her in the cave in Shamar's Thicket. Then she tells him everything.</li>
+            <li>Rella reveals the Aeroga family's true origins: they are not from Usuna. Their bloodline traces back to Eora — specifically the Gijan Dominion — where, a hundred years ago, her father narrowly escaped a genocide. The perpetrator was Leon Thanatos, High Lord of the Dominion, who dismantled the Draconia Orthodox and enacted a systematic campaign to extinguish every member of the faith and their families across generations. Rella's father was among the only survivors. He fled to Usuna. Leon died without a single heir of his own, which Rella regards with undisguised contempt.</li>
+            <li>Rella tells Artorius that his grandfather gave her a mission before he died: to rebuild the Draconia Orthodox in Logeion. To show the people of Logeion that they worship false gods and pretenders — the Wardens, who were in truth Ascendants who struck down Seraphon for their own gain — and to restore the rightful god to power. In her telling, Seraphon was the one force that kept the Ascendants' brutality in check. Without him, she believes, the Ascendants will ruin this world. The assembled cult in the cave is the beginning of that restoration.</li>
+            <li><strong style="font-weight:500">Nimbus's parents</strong> meet with him and share what they encountered in Fairwind — their own brush with Rex Ganafelt, the details of which leave a mark on the conversation.</li>
+            <li><strong style="font-weight:500">Ragnar Avarice arrives.</strong> Ingrid's father, 75 years old and accompanied by the full weight of the Avarice Group's commercial influence, meets with his son privately. He makes an offer: drop out of the Solstice Games. The family's reasons — financial leverage, reputational concern, something unspoken — are left deliberately vague. Rex Ganafelt appears alongside Ragnar, his presence clearly intended as intimidation.</li>
+            <li>The meeting unravels. Ingrid, refusing his father's demand, casts a fireball. Ragnar Avarice is killed.</li>
+            <li>In the aftermath, Ingrid attempts to pin the death on Rex. Rex's response is immediate and characteristically controlled: he voluntarily casts Zone of Truth and surrenders himself to the authorities on the spot — removing all deniability from Ingrid's account while placing himself entirely above suspicion.</li>
+            <li>General chaos follows as the party scrambles to manage the fallout. Arun Kryllios, demonstrating once again his talent for appearing wherever history is made, steps forward and volunteers to vouch for Ingrid — offering a form of diplomatic immunity grounded in his former titles.</li>
+            <li>The legal proceedings settle into an uneasy outcome: Rex is released but remains under official suspicion. Ingrid is formally charged with second-degree murder. The Games continue around them.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XII</span>
+          <span class="session-title">Sentencing — Rex's Gesture — The Avarice Verdict</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>Arun Kryllios's diplomatic intervention falls short of full immunity — he secures leniency, but cannot erase the charge. The court proceedings move forward.</li>
+            <li>Rex is characteristically unmoved by the entire affair, observing the chaos with open mockery. In a gesture that surprises nearly everyone, he arranges for his mother Julianath to be invited to live with him in the Republic, funded entirely out of his own means.</li>
+            <li>Depending on how Ingrid pleads, the matter may proceed to trial. The sentence handed down: twenty years. Upon release, Ingrid is to be exiled from the Free Cities entirely — bound for the Kingdom of Arcadia, a condition apparently requested by King Arun Kryllios himself.</li>
+            <li>In the Games standings, Rex's rank and reputation surge dramatically following his handling of the Zone of Truth incident. His standing among the remaining competitors is now effectively unchallenged.</li>
+            <li>Proteus Avarice assumes control of the Avarice Group in the wake of Ragnar's death.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XIII</span>
+          <span class="session-title">The Sanctum Cracks — The Spire Bends — The Crystal Plunged</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>The party enters the Tellurian Sanctum for the Trial of the Seeker. Something is immediately wrong. The dungeons — constructed from the Divine Sovereigns' magic — are beginning to deteriorate. Without the crystals in their possession, the Sovereigns can no longer sustain the elaborate enchantments holding the trials together. Sections of the Sanctum begin collapsing mid-run.</li>
+            <li>As Ingrid is being transported to prison, Zhaleh manages to reach him — a brief telepathic contact, the first since his disappearance to another plane.</li>
+            <li>The party fights through cultist forces within the Sanctum's chambers, navigating both the crumbling dungeon and the armed opposition simultaneously.</li>
+            <li>A knight named Ignatz intervenes at a critical moment and saves Nimbus's life.</li>
+            <li>Upon breaking past the first chamber, Osiris receives an urgent message from Muirenn: <em>"We have an urgent situation. The Spire Bends. The twins collapsed, and we don't know why. We need everyone here immediately."</em></li>
+            <li>The party races to the Sovereigns. In the chaos, Osiris reaches the chamber where Argentum and Gladiolus are being kept — and plunges a crystal shard into his own arm.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XIV</span>
+          <span class="session-title">Communion — Rex's Gambit — Zhaleh's Strike</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>Osiris communes with the entity through the crystal as Muirenn desperately attempts to pull him back. His arm begins to turn ethereal — drifting toward another plane entirely.</li>
+            <li>Rex enters the chamber, having subdued the guards outside. He offers his aid to Muirenn. Torn and unwilling, she accepts. Rex removes the crystal from Osiris's arm before the drift becomes permanent.</li>
+            <li>Rex then plunges the crystal into both of the Sovereigns — flooding their veins with magical energy and physically rejuvenating them. He explains the problem plainly: they cannot sustain the Games' enchantments without an active magical source. The crystals were that source.</li>
+            <li>Before Muirenn can respond, Zhaleh appears — summoned by Ingrid's call. He strikes Rex with a powerful spell, takes the crystal, and vanishes to another plane. Rex, mortally wounded, withdraws from the ship and returns to his own.</li>
+            <li>Muirenn has Ingrid moved to a holding cell in the ship's hull. She and Osiris question him directly: where do his allegiances lie, and where is Zhaleh? Ingrid answers without hesitation — his allegiance is to his master, wherever he may be.</li>
+            <li>Muirenn departs to find Zhaleh herself, traversing whatever planar realm he has retreated to. Osiris is left in command of the situation in her absence.</li>
+            <li>Osiris and Nimbus have an intense confrontation — the two barely finding common ground across a festering feud.</li>
+            <li>Elsewhere, Artorius meets privately with his mother. Rella chides him for not heeding her instructions. She reveals that the mysterious masked figures from the cave were his own comrades from the Aeroga Monastery — whom he killed. She tells him plainly: this will keep happening, unless he aligns with her.</li>
+            <li>Nimbus seeks out Rex. The two speak at length about their clashing philosophies and their roads ahead. Rex offers Nimbus a seat in his faction and a place in the utopia he intends to build. He speaks of his childhood — a tiny village razed by bandits — and the conclusion it left him with: there is no good left in the world, only evil, which makes evil the status quo. He goes further, questioning the Divine Sovereigns' divinity outright — suggesting they are at best no more divine than himself. Nimbus turns down the offer. Rex tells him it will remain open until they face each other in the finals.</li>
+            <li>Four days remain in the current trial.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XV</span>
+          <span class="session-title">The Tortured Spy — Gladio's Doubt — Rifts Mended</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>Rex shows Nimbus one last thing before the trial ends: a captured Aeroga Monastery warrior, currently being interrogated by Rex's lieutenants. Nimbus is invited to observe or participate. Under pressure, the warrior breaks — revealing himself as a spy, and disclosing that the Aeroga Monastery has infiltrated the Games in large numbers, operating under direct orders from Rella Aeroga.</li>
+            <li>Gladiolus seeks out Osiris privately. He confides in him about the pressure he has been receiving from Logeion's courts and advisors — a growing faction pushing him to seize unitary power and dissolve the Diarchy entirely. Rather than comply, Gladiolus is considering stepping down altogether. He asks Osiris directly: should he stay? Osiris tells him to hold. The conversation renews Gladiolus's resolve.</li>
+            <li>The four party members convene and manage, with difficulty and no small amount of bickering, to mend the worst of their rifts. Nimbus pushes for Ingrid's release. Artorius presses Nimbus hard on the nature of his relationship with Rex. The resolution: Ingrid is placed on extended house arrest — still in custody, but able to contribute to the group's efforts.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Sessions XVI–XVII</span>
+          <span class="session-title">Deeper Into the Tellurian Sanctum</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>The party drives deeper into the Tellurian Sanctum across two sessions — navigating the dungeon's deeper stone chambers, pressure mechanisms, and remaining traps.</li>
+            <li>At the dungeon's heart, they face and fell a colossal construct — the Sanctum's final guardian — and claim the artifact within.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XVIII</span>
+          <span class="session-title">Departure — Silences — Arrival in Takarakuni</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>Nimbus's parents see him off at the port. They are worried — he seems tired, worn in a way that fighting alone doesn't explain. The goodbye is warm but heavy.</li>
+            <li>Rex has already left for Takarakuni. No announcement, no ceremony. He is simply gone.</li>
+            <li>No word from Muirenn. Her absence is beginning to be felt.</li>
+            <li>A messenger arrives — sent by Elcan, apparently intended for Muirenn but defaulting to Osiris in her absence. The contents: cultists have begun attempting to afflict themselves deliberately with some form of disease or sickness. The purpose is unclear.</li>
+            <li>Nimbus and Osiris have a quiet, honest conversation about Nimbus's allegiances. Nimbus admits his fear plainly: if he speaks with Rex again alone, he may not come back from it. The admission sits between them without easy resolution.</li>
+            <li>The party arrives in Takarakuni.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XIX</span>
+          <span class="session-title">Takarakuni — Ozka Gitresh — The Succession Question</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>Mordred Aeroga meets with Artorius privately. He shares what he has observed of Rella's movements — she has been ruling the monastery with an increasingly iron hand, tightening her grip on its operations and personnel in ways that concern him.</li>
+            <li>The Divine Sovereigns make an announcement: the field has been whittled from 2,500 to 800 to the current 635 competitors. The next trial will take place in ten days — time given to contestants to rest and bolster their strength ahead of the trials in Soken.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XX</span>
+          <span class="session-title">The Entity — The Succession Resolved — Eikonia</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>The session opens on Ingrid, alone and mute. The Entity appears to him — wearing the face of Zhaleh. It attempts to recruit him, speaking in the voice of the person Ingrid trusts most.</li>
+            <li>The party moves deeper into Takarakuni. They discover they are being watched — the Velkroys have had eyes on them since arrival.</li>
+            <li>The Divine Sovereigns make another public announcement: of the 635 remaining competitors, 150 more have voluntarily withdrawn after learning the nature of the coming trials in Soken. The field now stands at 485. The ten-day preparation period holds.</li>
+            <li>Osiris has a sustained, private conversation with both Sovereigns. The topic is the succession question — whether one or both of them should continue to rule — and for the first time the matter nearly tears them apart entirely. Even after the revelation of who was born first, neither can agree on what to do with the information. At the end of the conversation, both Sovereigns propose a resolution: if they cannot rule together as a Diarchy, they will cede the throne to someone outside the fracture — naming Muirenn as Divine Sovereign, with Osiris as her successor.</li>
+            <li>Rex makes telepathic contact with Nimbus. He does not threaten. He reassures — telling Nimbus there will always be a place for him in the world Rex is building — and asks, as the price of the connection, that Nimbus reveal the location of Elcan Varano. Nimbus says he will investigate. Rex offers genuine thanks.</li>
+            <li>Rex, true to his word, helps Artorius and Nimbus locate Ingrid — lost somewhere between planes. Ingrid is recovered. Rex then removes the crystal from Zhaleh's staff and gives the now-empowered staff to Ingrid before departing without elaboration.</li>
+            <li>The three of them, alone, venture into the ruins of Zhaleh's ransacked vault. Nearly everything is gone. What remains is a single tattered fragment of a map — most of it destroyed or missing. The only legible point on it is a name: <strong style="font-weight:500">Eikonia</strong>.</li>
+          </ul>
+        </div>
       </div>
     </div>
-
-    <!-- TIMELINE -->
-    <div class="page" id="page-timeline">
       <div class="page-hero">
         <div class="page-category">History</div>
         <div class="page-title">Timeline</div>
