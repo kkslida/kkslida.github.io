@@ -1,3 +1,4 @@
+[Uploading Progenitum — Codex of Ishgar (2).html…]()
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,21 +8,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
 <style>
   :root {
-    --gold: #c9a84c;
-    --gold-light: #e8c96a;
-    --gold-dark: #7a5c1a;
-    --crystal: #7eb8d4;
-    --crystal-dark: #3a7a9c;
-    --deep: #0a0a0f;
-    --surface: #0f0f1a;
-    --surface2: #161625;
-    --surface3: #1c1c30;
-    --text: #d8cfc0;
-    --text-dim: #8a8070;
-    --accent-red: #9c3a3a;
-    --accent-red-light: #c06060;
-    --border: rgba(201,168,76,0.25);
-    --border-bright: rgba(201,168,76,0.6);
+    --gold: #8a5a1e;
+    --gold-light: #a5701f;
+    --gold-dark: #5c3c14;
+    --crystal: #3a6d78;
+    --crystal-dark: #294f58;
+    --deep: #241608;
+    --leather: #b9915b;
+    --leather-edge: #8a6a3c;
+    --surface: #ecdcb2;
+    --surface2: #e2cfa0;
+    --surface3: #d6bd88;
+    --text: #2c1d10;
+    --text-dim: #5a4426;
+    --accent-red: #7a2d20;
+    --accent-red-light: #973526;
+    --border: rgba(90,58,20,0.35);
+    --border-bright: rgba(90,58,20,0.65);
+    --page-bg: #ecdcb2;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -36,15 +40,17 @@
     overflow-x: hidden;
   }
 
-  /* Background texture */
+  /* Background texture — worn leather desk, softly lit */
   body::before {
     content: '';
     position: fixed;
     inset: 0;
     background:
-      radial-gradient(ellipse 80% 60% at 50% -10%, rgba(201,168,76,0.06) 0%, transparent 70%),
-      radial-gradient(ellipse 50% 40% at 90% 80%, rgba(126,184,212,0.04) 0%, transparent 60%),
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+      radial-gradient(ellipse 130% 90% at 50% 40%, rgba(70,46,24,0.15) 0%, transparent 55%),
+      radial-gradient(ellipse 140% 100% at 50% 50%, transparent 35%, rgba(0,0,0,0.55) 100%),
+      radial-gradient(ellipse 60% 45% at 15% 15%, rgba(0,0,0,0.25) 0%, transparent 60%),
+      radial-gradient(ellipse 55% 45% at 88% 85%, rgba(0,0,0,0.22) 0%, transparent 60%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.10'/%3E%3C/svg%3E");
     pointer-events: none;
     z-index: 0;
   }
@@ -62,8 +68,12 @@
   header {
     grid-column: 1 / -1;
     padding: 40px 48px 32px;
-    border-bottom: 1px solid var(--border);
-    background: linear-gradient(180deg, rgba(201,168,76,0.05) 0%, transparent 100%);
+    border-bottom: 1px solid var(--border-bright);
+    background:
+      radial-gradient(ellipse 90% 140% at 10% 50%, rgba(0,0,0,0.12), transparent 60%),
+      linear-gradient(180deg, rgba(255,244,214,0.12) 0%, transparent 40%, rgba(0,0,0,0.10) 100%),
+      var(--leather);
+    box-shadow: inset 0 -2px 6px rgba(0,0,0,0.15);
     display: flex;
     align-items: flex-end;
     gap: 32px;
@@ -89,17 +99,17 @@
   .header-text h1 {
     font-family: 'Cinzel Decorative', serif;
     font-size: clamp(1.6rem, 3vw, 2.4rem);
-    color: var(--gold);
+    color: var(--gold-dark);
     letter-spacing: 0.08em;
     line-height: 1.1;
-    text-shadow: 0 0 30px rgba(201,168,76,0.3);
+    text-shadow: 0 1px 0 rgba(255,244,214,0.45), 0 -1px 1px rgba(0,0,0,0.2);
   }
 
   .header-text .subtitle {
     font-family: 'Cinzel', serif;
     font-size: 0.75rem;
     letter-spacing: 0.25em;
-    color: var(--text-dim);
+    color: var(--leather-edge);
     text-transform: uppercase;
     margin-top: 4px;
   }
@@ -107,13 +117,16 @@
   /* SIDEBAR */
   nav {
     grid-column: 1;
-    border-right: 1px solid var(--border);
+    border-right: 1px solid var(--border-bright);
     padding: 32px 0;
     position: sticky;
     top: 0;
     height: calc(100vh - 120px);
     overflow-y: auto;
-    background: rgba(10,10,15,0.4);
+    background:
+      linear-gradient(90deg, rgba(0,0,0,0.06), transparent 20%),
+      var(--leather);
+    box-shadow: inset -6px 0 12px -8px rgba(0,0,0,0.3);
     scrollbar-width: thin;
     scrollbar-color: var(--gold-dark) transparent;
   }
@@ -165,12 +178,59 @@
     background: var(--gold);
   }
 
-  /* MAIN CONTENT */
+  /* MAIN CONTENT — styled as the open page of the tome */
   main {
     grid-column: 2;
-    padding: 48px 60px;
+    padding: 56px 68px 72px;
     max-width: 900px;
+    position: relative;
+    background:
+      radial-gradient(circle at 12% 8%, rgba(120,88,40,0.16) 0%, transparent 10%),
+      radial-gradient(circle at 82% 22%, rgba(120,88,40,0.12) 0%, transparent 8%),
+      radial-gradient(circle at 30% 78%, rgba(120,88,40,0.14) 0%, transparent 9%),
+      radial-gradient(circle at 70% 92%, rgba(120,88,40,0.10) 0%, transparent 7%),
+      radial-gradient(ellipse 70% 40% at 50% 0%, rgba(90,68,30,0.10), transparent 70%),
+      radial-gradient(ellipse 90% 70% at 50% 50%, transparent 55%, rgba(90,68,30,0.14) 100%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23p)' opacity='0.05'/%3E%3C/svg%3E"),
+      var(--page-bg);
+    box-shadow:
+      inset 0 0 70px rgba(90,60,20,0.35),
+      inset 0 0 0 1px rgba(90,58,20,0.18),
+      inset 0 0 0 7px rgba(120,88,40,0.08);
   }
+
+  main::before, main::after {
+    content: '';
+    position: absolute;
+    left: 26px;
+    right: 26px;
+    height: 7px;
+    pointer-events: none;
+    opacity: 0.5;
+    background-image:
+      linear-gradient(135deg, transparent 48%, var(--deep) 50%),
+      linear-gradient(-135deg, transparent 48%, var(--deep) 50%);
+    background-size: 14px 14px;
+    background-repeat: repeat-x;
+  }
+  main::before { top: 0; background-position: 0 0; }
+  main::after { bottom: 0; transform: scaleY(-1); }
+
+  .tome-corner {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath d='M3 3 L3 22 M3 3 L22 3' fill='none' stroke='%235c3c14' stroke-width='1.2'/%3E%3Cpath d='M3 13 Q13 13 13 3' fill='none' stroke='%235c3c14' stroke-width='1'/%3E%3Ccircle cx='3' cy='3' r='2.6' fill='none' stroke='%235c3c14' stroke-width='1'/%3E%3Ccircle cx='3' cy='3' r='1' fill='%235c3c14'/%3E%3C/svg%3E");
+  }
+  .tome-corner--tl { top: 14px; left: 14px; }
+  .tome-corner--tr { top: 14px; right: 14px; transform: scaleX(-1); }
+  .tome-corner--bl { bottom: 14px; left: 14px; transform: scaleY(-1); }
+  .tome-corner--br { bottom: 14px; right: 14px; transform: scale(-1,-1); }
+  @media (max-width: 700px) { .tome-corner { display: none; } }
 
   .page { display: none; }
   .page.active { display: block; animation: fadeIn 0.35s ease; }
@@ -202,7 +262,7 @@
     font-size: clamp(1.6rem, 3vw, 2.4rem);
     color: var(--gold-light);
     line-height: 1.15;
-    text-shadow: 0 2px 20px rgba(201,168,76,0.2);
+    text-shadow: 0 1px 0 rgba(255,248,222,0.5);
   }
 
   .page-tagline {
@@ -212,9 +272,34 @@
     margin-top: 10px;
   }
 
+  .page-hero::after {
+    content: '❧';
+    position: absolute;
+    left: 50%;
+    bottom: -12px;
+    transform: translateX(-50%);
+    background: var(--page-bg);
+    padding: 0 16px;
+    color: var(--gold-dark);
+    font-size: 0.95rem;
+    line-height: 1;
+  }
+
   /* CONTENT BLOCKS */
   .entry p {
     margin-bottom: 1.1em;
+  }
+
+  /* ILLUMINATED INITIAL — opens the first passage of a page */
+  .page-hero + .entry > p:first-child::first-letter,
+  .home-intro::first-letter {
+    font-family: 'Cinzel Decorative', serif;
+    float: left;
+    font-size: 3.6em;
+    line-height: 0.78;
+    padding: 0.06em 0.1em 0 0;
+    color: var(--gold-light);
+    text-shadow: 0 1px 0 rgba(255,248,222,0.6);
   }
 
   .entry h3 {
@@ -233,6 +318,7 @@
     border: 1px solid var(--border);
     border-left: 3px solid var(--gold);
     background: rgba(201,168,76,0.04);
+    box-shadow: inset 0 0 0 1px rgba(201,168,76,0.06);
     padding: 18px 22px;
     margin: 24px 0;
     font-style: italic;
@@ -267,9 +353,9 @@
 
   /* CRYSTAL BOX */
   .crystal-box {
-    border: 1px solid rgba(126,184,212,0.3);
+    border: 1px solid rgba(58,109,120,0.35);
     border-left: 3px solid var(--crystal);
-    background: rgba(126,184,212,0.04);
+    background: rgba(58,109,120,0.06);
     padding: 16px 20px;
     margin: 20px 0;
     font-size: 0.9rem;
@@ -287,6 +373,7 @@
   .nation-card {
     border: 1px solid var(--border);
     background: var(--surface2);
+    box-shadow: inset 0 0 0 1px rgba(201,168,76,0.06);
     padding: 22px;
     cursor: pointer;
     transition: all 0.25s;
@@ -335,6 +422,7 @@
   .char-card {
     border: 1px solid var(--border);
     background: var(--surface2);
+    box-shadow: inset 0 0 0 1px rgba(201,168,76,0.06);
     padding: 28px;
     margin: 28px 0;
   }
@@ -371,7 +459,7 @@
   }
 
   .badge-ascendant { color: var(--gold); border-color: var(--gold-dark); background: rgba(201,168,76,0.08); }
-  .badge-npc { color: var(--crystal); border-color: rgba(126,184,212,0.4); background: rgba(126,184,212,0.05); }
+  .badge-npc { color: var(--crystal); border-color: rgba(58,109,120,0.45); background: rgba(58,109,120,0.07); }
   .badge-villain { color: var(--accent-red-light); border-color: rgba(156,58,58,0.5); background: rgba(156,58,58,0.06); }
 
   .char-body {
@@ -450,6 +538,7 @@
   .session-block {
     border: 1px solid var(--border);
     background: var(--surface2);
+    box-shadow: inset 0 0 0 1px rgba(201,168,76,0.06);
     margin: 16px 0;
     overflow: hidden;
   }
@@ -505,7 +594,7 @@
   .session-body li {
     padding: 5px 0 5px 18px;
     position: relative;
-    border-bottom: 1px solid rgba(255,255,255,0.03);
+    border-bottom: 1px solid rgba(90,58,20,0.10);
   }
 
   .session-body li::before {
@@ -523,10 +612,12 @@
     color: var(--text-dim);
     font-style: italic;
     margin-bottom: 36px;
-    padding: 24px;
+    padding: 28px 30px;
     border: 1px solid var(--border);
+    box-shadow: inset 0 0 0 1px rgba(201,168,76,0.06);
     background: rgba(201,168,76,0.03);
     line-height: 1.9;
+    position: relative;
   }
 
   .quick-nav {
@@ -611,10 +702,10 @@
   <!-- HEADER -->
   <header>
     <svg class="header-emblem" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <polygon points="32,4 38,22 58,22 43,34 48,54 32,42 16,54 21,34 6,22 26,22" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.7"/>
-      <polygon points="32,14 36,24 48,24 38,30 42,42 32,36 22,42 26,30 16,24 28,24" fill="rgba(201,168,76,0.12)" stroke="#c9a84c" stroke-width="0.8"/>
-      <circle cx="32" cy="32" r="5" fill="none" stroke="#7eb8d4" stroke-width="1.2"/>
-      <circle cx="32" cy="32" r="2" fill="#7eb8d4" opacity="0.8"/>
+      <polygon points="32,4 38,22 58,22 43,34 48,54 32,42 16,54 21,34 6,22 26,22" fill="none" stroke="#5c3c14" stroke-width="1.5" opacity="0.7"/>
+      <polygon points="32,14 36,24 48,24 38,30 42,42 32,36 22,42 26,30 16,24 28,24" fill="rgba(90,58,20,0.14)" stroke="#5c3c14" stroke-width="0.8"/>
+      <circle cx="32" cy="32" r="5" fill="none" stroke="#3a6d78" stroke-width="1.2"/>
+      <circle cx="32" cy="32" r="2" fill="#3a6d78" opacity="0.8"/>
     </svg>
     <div class="header-text">
       <h1>Progenitum</h1>
@@ -679,6 +770,10 @@
 
   <!-- MAIN -->
   <main>
+    <div class="tome-corner tome-corner--tl"></div>
+    <div class="tome-corner tome-corner--tr"></div>
+    <div class="tome-corner tome-corner--bl"></div>
+    <div class="tome-corner tome-corner--br"></div>
 
     <!-- HOME -->
     <div class="page active" id="page-home">
@@ -1692,7 +1787,7 @@
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session XIX</span>
-          <span class="session-title">Takarakuni — Ozka Gitresh — The Succession Question</span>
+          <span class="session-title">Takarakuni — Mordred's Warning — The Succession Question</span>
           <span class="session-toggle">▼</span>
         </div>
         <div class="session-body">
@@ -1718,6 +1813,128 @@
             <li>Rex makes telepathic contact with Nimbus. He does not threaten. He reassures — telling Nimbus there will always be a place for him in the world Rex is building — and asks, as the price of the connection, that Nimbus reveal the location of Elcan Varano. Nimbus says he will investigate. Rex offers genuine thanks.</li>
             <li>Rex, true to his word, helps Artorius and Nimbus locate Ingrid — lost somewhere between planes. Ingrid is recovered. Rex then removes the crystal from Zhaleh's staff and gives the now-empowered staff to Ingrid before departing without elaboration.</li>
             <li>The three of them, alone, venture into the ruins of Zhaleh's ransacked vault. Nearly everything is gone. What remains is a single tattered fragment of a map — most of it destroyed or missing. The only legible point on it is a name: <strong style="font-weight:500">Eikonia</strong>.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XXI</span>
+          <span class="session-title">Killian's Gambit — The Velkroy Vault — Rex's Claim</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>Killian is recovered and brought before the Divine Sovereigns' ship to counsel with Osiris. He lays out a plan: Rex, upon his return to Soken, will be received with a Soiree and no small amount of fanfare. If the Sovereigns can be convinced to time the lifting of the no-kill rule to the close of the festivities, the party may catch him unguarded.</li>
+            <li>A second plan takes shape alongside the first — a bid to breach the vaults of the Velkroy Association. Osiris will approach the family through proper channels; the rest of the party through channels considerably less proper.</li>
+            <li>The Divine Sovereigns meet with the council to settle the succession question once and for all. Chancellor Vholran and the council agree, begrudgingly, with arrangements made to end the Solstice Games early once a council bill is passed.</li>
+            <li>Nimbus speaks with Rex again, and learns what few others yet know: Rex has drawn the crystal from the staff of power and embedded it within his own sword.</li>
+            <li>The next day, Rex is seen in private conference with the council members of Logeion before their departure. Osiris inserts himself into the meeting in time to hear Rex's claim laid bare — that the Divine Sovereigns were never chosen by the gods at all, but by a single god: Zenithia, the entity that has been at his side all along. The council reels. Osiris and Chancellor Vholran voice their dissent on the council's behalf, but Rex only smiles, shrugs, and takes his leave.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XXII</span>
+          <span class="session-title">Annabella Velkroy — Rella's Duel — The Reckoning</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li><strong style="font-weight:500">Annabella Velkroy.</strong> Osiris meets with her in pursuit of a handful of magic items, but neither charm nor argument secures a deal with her or her family.</li>
+            <li>Elsewhere, Nimbus and Artorius seek out Yudmug for a rare moment of rest — Yudmug instead claims the training himself, working Artorius hard while Nimbus looks on.</li>
+            <li>With the day's lull spent, Nimbus, Artorius, and a disguised Ingrid set their plan into motion: infiltrating the Velkroy complex. A warning from Noelle the bandit queen arrives — too late. Rella Aeroga, Artorius's mother, is already waiting, and forces her son into a duel of Echota: if she wins, Artorius leaves the Games for good; if he wins, he keeps his freedom entirely. Rella wins without difficulty. Ingrid interferes, casting a wall of force to break the duel apart, and is set upon in turn by two of Rella's attendants — and by Nimbus, who instead uses the chaos to scoop up Artorius's unconscious body and carry him clear. Rella turns her attention to Ingrid next, sending him crashing to the ground before spiriting him away entirely.</li>
+            <li>Osiris holds a secret meeting with Rex — the contents of which remain unknown even to the rest of the party — but it ends in violence: the two trade ferocious blows, Osiris landing the harder of the two strikes, only for Rex's answering blow to send him flying into unconsciousness. He never hits the ground. In his last waking moment, he sees his mother holding him aloft with telekinesis.</li>
+            <li>Muirenn returns.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XXIII</span>
+          <span class="session-title">Aeroga Monastery — Seraphon's Voice — The Road to Eikonia</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>The session opens on the tail end of a conversation Osiris was never meant to overhear — Rex and his mother, mid-argument. <em>"Rex... what did you do?!" "I merely returned what he gave me in kind. Be grateful I did not charge interest. If you value the life of your boy... take him away and pull him out of the games." "...And let you win the games unchallenged?" "If you too wish to fall like him, you're welcome to try."</em></li>
+            <li>Ingrid wakes in a luxurious, restrained room at Aeroga Monastery — home, he's told, to his friend Artorius. Rella enters personally to apologize for the "roughness" of his detainment: a duel of Echota is sacred, and interference cannot be tolerated. She offers to release his restraints if he agrees to keep the peace, then presses him gently for the location of Zhaleh and the crystals. Ingrid refuses outright. Rella, for her part, clarifies the record — she serves Seraphon, not Zenithia, and believes Seraphon alone should sit the throne of godhood.</li>
+            <li>Noelle and her squad find Nimbus and Artorius, trading barbed commentary on the night's disaster — the dragon-tattooed watchers still trailing the party more closely than anyone else, and no small amount of doubt that the party can best Rex at this rate. Noelle offers, in her own fashion, to keep an eye out for wherever Ingrid has been taken.</li>
+            <li>Osiris wakes aboard the Divine Sovereigns' ship and speaks first with his mother. His arm, it seems, is no longer only his own — he can now cast <strong style="font-weight:500">Soul Cage</strong> and <strong style="font-weight:500">Bigby's Hand</strong>, once per day each, drawing on his Constitution as the source of the power.</li>
+            <li>At Aeroga, Ingrid resists the pull of Zenithia's call.</li>
+            <li>Artorius meditates and reaches, at last, the being he knows only by the name it spoke back to him: Xenon. Something else answers in turn — the Chronowarden Primus, warning Artorius away from schemes beyond his design. Artorius pushes through anyway, breaking Primus's grasp and defying a god outright to reforge his link with Seraphon — and is granted, for his trouble, a mote of Seraphon's power.</li>
+            <li>Nimbus departs to speak with Rex one final time.</li>
+            <li>What remains of the party turns its eyes toward a long-forgotten place, in search of answers, hope, or power — whichever comes first: <strong style="font-weight:500">Eikonia</strong>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XXIV</span>
+          <span class="session-title">Zenithia's Bargain — The Champion Remade</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>A charged, unspoken moment passes between Ingrid and the crystal — and between Ingrid and Nimbus over it — its full weight known only to the two of them.</li>
+            <li>In the telling that follows, the truth comes out: Nimbus communed with Zenithia and asked outright for its power. Zenithia's price was simple — the deaths of both Artorius and Ingrid. Nimbus accepted, and came within a breath of striking Ingrid down before a final Contingency from Zhaleh intervened, saving Ingrid's life and alerting the rest of the party to what had happened.</li>
+            <li>The party converges on the wizard's tower. Osiris's mother pleads with Nimbus to come back from the edge; Nimbus does not move. Battle breaks out. Nimbus tries to flee, but Osiris's mother dimension doors into his path and sets Osiris upon him — and Osiris, in fury, cuts him down.</li>
+            <li>Nimbus does not stay down. He rises again — no longer only himself, but a champion of Zenithia.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XXV</span>
+          <span class="session-title">The Ring, the Rift, and Eikonia</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>Nimbus flees the field entirely.</li>
+            <li>What remains of the party regroups aboard the Divine Sovereigns' ship.</li>
+            <li>Artorius reaches out to Seraphon once more, hoping for aid, but is shunted away by Primus before any bargain can be struck.</li>
+            <li>Nimbus, elsewhere, finds his way back to Rex's side.</li>
+            <li>Osiris receives a ring from his mother — and with it, at last, chooses with his heart: he becomes engaged to Gladiolus, and parts ways with Argen.</li>
+            <li>Together, the party sets out for Eikonia.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XXVI</span>
+          <span class="session-title">The Fall of Eikonia — The Ziggurat — All Have Fallen</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li>The party splits to investigate what Zhaleh sent them to find. The main group slips into a guided tour of Eikonia and learns of a vast magical source lying beneath the city. Elsewhere, Rex and Nimbus come face to face with Rella Aeroga and her entourage — sent, at Artorius's own request, to kill Rex. Rella asks her son plainly if that is truly his wish; he affirms it, though not without reluctance.</li>
+            <li>Rella and Rex clash in a duel meant to settle the matter outright — until Ingrid, mid-battle, casts a spell that weakens both Rex and his own forces at once. Rella seizes the opening and drives Rex to the edge of defeat. Nimbus tries to carry him to safety, but Ingrid presses the attack regardless, striking Rex down with a volley of Eldritch Blasts.</li>
+            <li>As Rella turns at last to reclaim her son, the Chronowarden Primus — furious at the mortals' endless meddling — tears the ground open beneath them all. The party is scattered, then drawn back together by Primus's own hand, deep underground within an ancient ziggurat holding a weapon older than any of them: a phantom of the Imperial Ascendant, <strong style="font-weight:500">Miles Trajan</strong>, wielding the whole of his power undimmed by time.</li>
+            <li>The party fights with everything they have. It is not enough. One by one they fall — Ingrid Avarice first, beheaded — until none remain standing. And so, it seems, their tale ends.</li>
+            <li>And yet — hope endures.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="session-block">
+        <div class="session-header" onclick="toggleSession(this)">
+          <span class="session-num">Session XXVII</span>
+          <span class="session-title">Kadmos's Intervention — Five Years Lost — Scattered Across Usuna</span>
+          <span class="session-toggle">▼</span>
+        </div>
+        <div class="session-body">
+          <ul>
+            <li><em>"No... no... this isn't right. Why have their souls come to me so soon? What is Lucia thinking? What is Primus thinking? This cannot be... something is wrong. I will not allow their souls to pass so. I must speak to Kanan."</em> Kadmos, having received the party's souls far too soon, seeks out Kanan — and after speaking with Kadmos, who condemns Lucia and Primus's meddling as a violation of the natural order, Shamar returns the party's souls to their bodies.</li>
+            <li>Five years pass. The realm falls into chaos.</li>
+            <li>The Divine Sovereigns announce the cancellation of the Solstice Games, citing a rogue cult's threat against Logeion itself — sparking uproar and protest across the nation. With Muirenn gone in search of a way to bring Osiris back and Elcan consumed by the cultist threat at Logeion's door, the Sovereigns are left with no one to turn to. What follows is bickering, then open conflict between them, and finally civil war. As anarchy spreads across Logeion, the Divine Sovereigns themselves vanish — their whereabouts unknown to this day.</li>
+            <li>Into the vacuum steps Rex Zen Ganafelt — resurrected, and stronger than he has ever been. He claims the throne on the strength of his bond with Zenithia alone, and moves swiftly to erase what remains of Scientia rule. He does not sit unchallenged: Rella Aeroga has begun raising armies of her own at Aeroga Monastery. Logeion now balances on a fulcrum between the two — Rex's throne unsteady beneath him.</li>
+            <li>The party wakes scattered across Usuna, each in a place they did not choose: Artorius with his mother at Aeroga Monastery; Nimbus in the Royal Tombs beneath the Logeion Palace; Osiris on a riverbank outside Ouroboros, surrounded by the wreckage of shattered statues, coffins, and banners; Ingrid in Zhaleh's cabin, somewhere unknown even to himself.</li>
+            <li>Bound now to a future none of them chose, on paths none of them can yet see — all signs point toward Logeion, and each of them, for reasons entirely their own, begins the journey there.</li>
           </ul>
         </div>
       </div>
