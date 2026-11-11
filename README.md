@@ -1,4 +1,4 @@
-[Progenitum___Codex_of_Ishgar.2.html](https://github.com/user-attachments/files/34700680/Progenitum___Codex_of_Ishgar.2.html)
+[Progenitum___Codex_of_Ishgar.2.html](https://github.com/user-attachments/files/34700807/Progenitum___Codex_of_Ishgar.2.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -785,7 +785,7 @@
         Children of the land, answer this: Do you know the tale of the Scions of the First Dawn? The greatest story in all of the world, of how the wardens came to be. Owing to the schemes and shadows of time, gossip, religion and like kind, their story became twisted and utterly changed. Words scattered to the wind. This codex seeks to gather them once more.
       </div>
       <div class="entry">
-        <p>This is a living reference for the world of Ishgar, its continents and nations, its people, its ancient history, and the campaign that unfolds within it. Use the navigation to explore lore entries, faction details, character dossiers, and session records.</p>
+        <p>This is a living reference for the world of Ishgar, its continents and nations, its people, its ancient history, and the campaign that unfolds within it. Use the navigation to explore lore entries, faction details, character dossiers, and session logs.</p>
       </div>
       <div class="quick-nav">
         <a class="quick-btn" onclick="show('ascendants')">
