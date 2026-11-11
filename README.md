@@ -1,4 +1,4 @@
-[Progenitum___Codex_of_Ishgar (2).html](https://github.com/user-attachments/files/34700600/Progenitum___Codex_of_Ishgar.2.html)
+[Progenitum___Codex_of_Ishgar.2.html](https://github.com/user-attachments/files/34700680/Progenitum___Codex_of_Ishgar.2.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -780,7 +780,6 @@
       <div class="page-hero">
         <div class="page-category">Welcome</div>
         <div class="page-title">Progenitum: Codex of Ishgar</div>
-        <div class="page-tagline">Knowledge is the sharpest blade. Know thy world.</div>
       </div>
       <div class="home-intro">
         Children of the land, answer this: Do you know the tale of the Scions of the First Dawn? The greatest story in all of the world, of how the wardens came to be. Owing to the schemes and shadows of time, gossip, religion and like kind, their story became twisted and utterly changed. Words scattered to the wind. This codex seeks to gather them once more.
