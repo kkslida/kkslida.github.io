@@ -1,4 +1,4 @@
-[Progenitum___Codex_of_Ishgar.2.html](https://github.com/user-attachments/files/34721325/Progenitum___Codex_of_Ishgar.2.html)
+[Progenitum_Codex_of_Ishgar (1).html](https://github.com/user-attachments/files/34765959/Progenitum_Codex_of_Ishgar.1.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1250,7 +1250,6 @@
         <p>A running record of campaign sessions, major events, and turning points. Click a session to expand.</p>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session I</span>
@@ -1272,7 +1271,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session II</span>
@@ -1290,7 +1288,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1310,7 +1307,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1334,7 +1330,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session V</span>
@@ -1353,7 +1348,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1380,7 +1374,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Sessions VII–X</span>
@@ -1398,7 +1391,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1421,7 +1413,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session XII</span>
@@ -1438,7 +1429,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1457,7 +1447,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1481,7 +1470,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session XV</span>
@@ -1497,7 +1485,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Sessions XVI–XVII</span>
@@ -1511,7 +1498,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1531,7 +1517,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session XIX</span>
@@ -1545,7 +1530,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1566,7 +1550,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session XXI</span>
@@ -1584,7 +1567,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session XXII</span>
@@ -1601,7 +1583,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1623,7 +1604,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session XXIV</span>
@@ -1639,7 +1619,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1659,7 +1638,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session XXVI</span>
@@ -1676,7 +1654,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1695,7 +1672,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1720,7 +1696,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session XXIX</span>
@@ -1738,7 +1713,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session XXX</span>
@@ -1753,7 +1727,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1772,7 +1745,6 @@
         </div>
       </div>
 
-
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
           <span class="session-num">Session XXXII</span>
@@ -1788,7 +1760,6 @@
           </ul>
         </div>
       </div>
-
 
       <div class="session-block">
         <div class="session-header" onclick="toggleSession(this)">
@@ -1818,6 +1789,7 @@
         <p style="color: var(--text-dim); font-style: italic;">Timeline entries will be added here as history is established.</p>
       </div>
     </div>
+  </main>
 </div>
 
 <script>
